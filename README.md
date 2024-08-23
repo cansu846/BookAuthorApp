@@ -1,17 +1,22 @@
-## BookApiApplication
-BookApiApplication is a book management API that allows you to create, update, read, and delete books. It is developed using Spring Boot and provides API documentation with Swagger.
+## BookAuthorApp
 
-## Features
-Add, update, and delete books
-List and view book details
-API documentation with Swagger
+# Overview
+BookAuthorApp is a comprehensive application designed to manage and explore the intricate relationships between books and their authors. The application allows users to create, update, view, and manage records for both books and authors, providing a seamless interface for maintaining a literary database.
 
-## Technologies
-Spring Boot: For server-side application development
-ModelMapper: For mapping between DTO and Entity objects
-Swagger: For API documentation
-Postgre Database
+# Features
+Book Management: Create, update, view, and delete book records.
+Author Management: Manage author profiles, including biography and list of authored books.
+Book-Author Relationship: Link books with their respective authors, view authorship details.
+RESTful API: Expose endpoints for integrating with other systems or for use in front-end applications.
+Swagger Documentation: Interactive API documentation for easy exploration and testing of endpoints.
 
-## Swagger UI
-You can view and test the API documentation using Swagger UI at:
-Swagger UI URL: http://localhost:3003/swagger-ui/index.html
+# Technology Stack
+Backend: Spring Boot
+Database: Postgre Database 
+Object Mapping: ModelMapper
+API Documentation: Swagger UI
+Java Version: 21
+
+# Access the Application
+API Endpoints: http://localhost:3003/api
+Swagger UI: http://localhost:3003/swagger-ui/index.html
